@@ -2,16 +2,13 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Controle de Recrutadores - Maresia RP</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
   <style>
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      margin: 0; padding: 0; box-sizing: border-box;
     }
-
     html, body {
       height: 100%;
       overflow-x: hidden;
@@ -19,16 +16,13 @@
       color: #00ffff;
       background: linear-gradient(135deg, #000000, #001f1f);
     }
-
     #particles-js {
       position: fixed;
       width: 100%;
       height: 100%;
       z-index: -2;
-      top: 0;
-      left: 0;
+      top: 0; left: 0;
     }
-
     .container {
       border-radius: 20px;
       margin: 3rem auto;
@@ -42,12 +36,10 @@
       box-shadow: 0 0 30px #00ffffaa;
       animation: fadeInContainer 1s ease-in-out;
     }
-
     @keyframes fadeInContainer {
       from { opacity: 0; transform: scale(0.95); }
       to { opacity: 1; transform: scale(1); }
     }
-
     h1, h2 {
       text-align: center;
       margin-bottom: 1rem;
@@ -55,24 +47,20 @@
       text-shadow: 0 0 15px #00ffffaa;
       animation: pulseGlow 2s infinite;
     }
-
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
       animation: fadeIn 1.5s ease-in-out;
     }
-
     th, td {
       padding: 0.75rem;
       border: 1px solid #00ffff44;
       text-align: left;
     }
-
     th {
       background-color: #00ffff22;
     }
-
     .tag {
       padding: 4px 10px;
       border-radius: 20px;
@@ -81,7 +69,6 @@
       color: #000;
       animation: pulse 2s infinite ease-in-out;
     }
-
     .ativo {
       background-color: #00ff99;
       box-shadow: 0 0 15px #00ff99;
@@ -101,7 +88,18 @@
       animation: pulse 2s infinite ease-in-out;
       font-style: normal;
     }
-
+    .verde {
+      background-color: #00cc44;
+      color: #000;
+      box-shadow: 0 0 15px #00cc44;
+      animation: pulse 2s infinite ease-in-out;
+    }
+    .vermelho {
+      background-color: #cc3300;
+      color: #000;
+      box-shadow: 0 0 15px #cc3300;
+      animation: pulse 2s infinite ease-in-out;
+    }
     footer {
       text-align: center;
       color: #ccc;
@@ -109,17 +107,14 @@
       font-size: 0.9rem;
       opacity: 0.7;
     }
-
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.1); }
     }
-
     @keyframes pulseGlow {
       0%, 100% { text-shadow: 0 0 15px #00ffffaa; }
       50% { text-shadow: 0 0 30px #00ffffcc; }
     }
-
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
@@ -162,21 +157,71 @@
       <table>
         <tr><th>Nome</th><th>Status</th></tr>
         <tr><td><em>Em breve</em></td><td><span class="tag destaque-rec">Destaque REC</span></td></tr>
-        <tr><td>Diogo Couto</td><td><span class="tag ativo">Ativo</span></td></tr>
-        <tr><td>Henrique</td><td><span class="tag ativo">Ativo</span></td></tr>
-        <tr><td>Stark fps</td><td><span class="tag ativo">Ativo</span></td></tr>
-        <tr><td>Faria</td><td><span class="tag ativo">Ativo</span></td></tr>
-        <tr><td>João RP</td><td><span class="tag ativo">Ativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag ativo">Ativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag ativo">Ativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag ativo">Ativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag ativo">Ativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag ativo">Ativo</span></td></tr>
 
-        <tr><td>Eduarda Lobo</td><td><span class="tag inativo">Inativo</span></td></tr>
-        <tr><td>Gomes</td><td><span class="tag inativo">Inativo</span></td></tr>
-        <tr><td>Raro XPZ</td><td><span class="tag inativo">Inativo</span></td></tr>
-        <tr><td>CPX LCS</td><td><span class="tag inativo">Inativo</span></td></tr>
-        <tr><td>Milton</td><td><span class="tag inativo">Inativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag inativo">Inativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag inativo">Inativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag inativo">Inativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag inativo">Inativo</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag inativo">Inativo</span></td></tr>
 
-        <tr><td>Londriano</td><td><span class="tag desligamento">Possível Desligamento</span></td></tr>
-        <tr><td>Nino</td><td><span class="tag desligamento">Possível Desligamento</span></td></tr>
-        <tr><td>VK Arana</td><td><span class="tag desligamento">Possível Desligamento</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag desligamento">Possível Desligamento</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag desligamento">Possível Desligamento</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag desligamento">Possível Desligamento</span></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>📋 Recrutamentos por Membro</h2>
+      <table>
+        <tr><th>Nome</th><th>Recrutamentos</th></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+        <tr><td>Em breve</td><td>0</td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>📈 Resultado do Dia</h2>
+      <table>
+        <tr><th>Nome</th><th>Resultado</th></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag vermelho">Não bateu</span></td></tr>
+        <tr><td>Em breve</td><td><span class="tag verde">Meta batida</span></td></tr>
       </table>
     </div>
 
